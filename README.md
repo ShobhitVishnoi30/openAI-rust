@@ -1,1 +1,1 @@
-# openAI-rust
+async-openai/README.md
