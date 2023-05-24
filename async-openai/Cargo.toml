@@ -2,7 +2,7 @@
 name = "async-openai"
 version = "0.10.3"
 authors = [
-    "Himanshu Neema"
+    "Shobhit Vishnoi"
 ]
 categories = ["api-bindings", "web-programming", "asynchronous"]
 keywords = ["openai", "async", "openapi", "ai"]
@@ -11,8 +11,8 @@ edition = "2021"
 rust-version = "1.65"
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/64bit/async-openai"
-repository = "https://github.com/64bit/async-openai"
+homepage = "https://github.com/ShobhitVishnoi30/openAI-rust"
+repository = "https://github.com/ShobhitVishnoi30/openAI-rust"
 
 [features]
 default = ["rustls"]
