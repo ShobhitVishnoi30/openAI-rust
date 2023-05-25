@@ -48,6 +48,12 @@ async fn main() -> Result<(), Box<dyn Error>> {
             // Exit the program if the user enters "quit"
             break;
         }
+         
+        if input.eq_ignore_ascii_case("create new chat") {
+            // Exit the program if the user enters "quit"
+           messages = Vec::new();
+           continue;
+        }
 
         // Process the input and print the output
         let output = process_input(input);
